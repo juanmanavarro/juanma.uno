@@ -33,6 +33,15 @@
         @media (max-width: 600px) {
             .container {
                 padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+            .contact {
+                text-align: center;
+                margin: 30px auto;
+            }
+            .contact > * {
+                width: 40px;
+                display: inline-block;
             }
         }
         @media (min-width: 600px) {
@@ -112,14 +121,13 @@
             <p>Un saludo 🙂</p>
         </div>
     </main>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXDR3E4RNV"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-HXDR3E4RNV');
+        gtag('config', 'G-HXDR3E4RNV');
     </script>
 </body>
 </html>
